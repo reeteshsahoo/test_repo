@@ -18,3 +18,9 @@ if main:
 
     a = input("Enter a number: ")
     b = input("Enter another number: ")
+
+    # Convert inputs to integers
+    a = int(a)
+    b = int(b)
+    # Print the results of multiplication and addition
+    print("Multiplication of", a, "and", b, ":", multiply(a, b))
