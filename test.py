@@ -7,6 +7,9 @@ def multiply(a, b):
 def add(a, b):
     return a + b
 
+def subtract(a, b):
+    return a - b
+
 
 main = __name__ == "__main__"
 if main:
@@ -24,3 +27,6 @@ if main:
     b = int(b)
     # Print the results of multiplication and addition
     print("Multiplication of", a, "and", b, ":", multiply(a, b))
+ 
+    #Test the subtraction function
+    print("Subtraction of", a, "and", b, ":", subtract(a, b))  # Expected output: a - b
