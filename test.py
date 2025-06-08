@@ -1,4 +1,4 @@
-# write a mutliplication function
+# write a mutliplication  #
 def multiply(a, b):
     return a * b
 
@@ -15,3 +15,6 @@ if main:
 
     # Test the addition function
     print("Addition of 3 and 4:", add(3, 4))  # Expected output: 7
+
+    a = input("Enter a number: ")
+    b = input("Enter another number: ")
